@@ -73,6 +73,15 @@ $STATUS
 <p><strong>something learned...</strong></p>
 <p>Setting up a new week isnt as hard as it seemed at first.<p><p> cron is quite easy to use just by reading what was written on it.<p>
 <p>
+<p>
+<p>
+<footers>
+
+<p><a href="https://github.com/aop911/linuxkurssi_viikko3">
+		Scripts in github
+</a>
+</p>
+</footers>
 </body>
 </html>
 EOF
