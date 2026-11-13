@@ -72,8 +72,16 @@ $STATUS
 <p>free -h | awk '/Mem:/ {print $7}'- shows ram space thats free to use<p>
 <p><strong>something learned...</strong></p>
 <p>Setting up a new week isnt as hard as it seemed at first.<p><p> cron is quite easy to use just by reading what was written on it.<p>
-<p>
-<p>
+<p><strong>The IF script</strong></p>
+<p>script:get_disk_status() {<br>
+    local usage=$1<br>
+
+    if [ "$usage" -ge 80 ]; then<br>
+        echo "WARNING"<br>
+    else<br>
+        echo "OK"<br>
+    fi<br>
+}
 <p>
 <footers>
 
